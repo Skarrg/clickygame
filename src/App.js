@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import students from "./students.json";
 
+
 // function shuffleArray(array) {
 //   for (var i = array.length - 1; i > 0; i--) {
 //       var j = Math.floor(Math.random() * (i + 1));
@@ -58,7 +59,6 @@ class App extends Component {
         <Header
         score={this.state.score}
         bestscore={this.state.bestscore}>
-        Student Match!
         </Header>
         {this.state.students.map(student => (
           <StudentCard

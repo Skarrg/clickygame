@@ -1,6 +1,7 @@
 .wrapper {
   padding-top: 50px;
-  background: #ECEFF1;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
+  background-repeat: repeat;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
